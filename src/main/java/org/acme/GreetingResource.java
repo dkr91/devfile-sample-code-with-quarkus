@@ -8,7 +8,7 @@ import javax.ws.rs.core.MediaType;
 @Path("/hello-resteasy")
 public class GreetingResource {
 
-    String name = "OpenShift"
+    static String name = "OpenShift";
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
